@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  background: white;
+  padding-left: 35rem;
+}
+
+section {
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.heading {
+  text-align: center;
+  margin: 0 6rem;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 1rem solid #222;
+  color: #181818;
+}
+
+.heading span {
+  color: #8758ff;
+}
+
+/* header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 100%;
+  width: 35rem;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+header .saya img {
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 0.7rem solid #8758ff;
+}
+
+header .saya .nama {
+  font-size: 3rem;
+  color: #181818;
+}
+
+header .saya .role {
+  font-size: 2rem;
+  color: #181818;
+}
+
+header .navbar {
+  width: 100%;
+  border-left: 1px solid #181818;
+}
+
+header .navbar ul {
+  list-style: none;
+  padding: 1rem 3rem;
+}
+
+header .navbar ul li a {
+  display: block;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background-color: #8758ff;
+  color: white;
+  font-size: 2rem;
+  border-radius: 5rem;
+}
+
+header .navbar ul li a:hover {
+  background: white;
+  color: #8758ff;
+}
+
+/* home */
+.home {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  padding: 0 15rem;
+}
+
+.home h3 {
+  font-size: 2.5rem;
+  color: #181818;
+}
+
+.home h1 {
+  font-size: 5rem;
+  color: #181818;
+}
+
+.home h1 span {
+  color: #8758ff;
+}
+
+.home p {
+  font-size: 2rem;
+  color: #222;
+  padding: 1rem 0;
+}
+
+.btn {
+  padding: 1rem 5rem;
+  background: #8758ff;
+  color: white;
+  cursor: pointer;
+  margin-top: 5rem;
+  font-size: 2rem;
+  border-radius: 5rem;
+}
+
+.btn:hover {
+  background: white;
+  color: #8758ff;
+}
+
+/* about */
+.about .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+.about .row .info {
+  flex: 1 1 48rem;
+  padding: 2rem 1rem;
+  padding-left: 6rem;
+}
+
+.about .row .info h3 {
+  font-size: 2rem;
+  color: #8758ff;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.about .row .info h3 span {
+  color: #181818;
+  padding: 0 0.5rem;
+}
+
+.about .row .skill {
+  flex: 1 1 48rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about .row .skill .box {
+  width: 20rem;
+  background: #8758ff;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 8px;
+}
+
+.about .row .skill .box img {
+  height: 5rem;
+  width: 5rem;
+}
+.about .row .skill .box h3 {
+  font-size: 2rem;
+  color: #181818;
+  margin-top: 2rem;
+}
+
+/* education */
+.education .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  padding-left: 3rem;
+}
+
+.education .box-container .box {
+  width: 27rem;
+  margin: 4rem 1rem;
+  padding-left: 4rem;
+  border-left: 0.2rem solid white;
+}
+
+.education .box-container .box span {
+  font-size: 1.3rem;
+  background: #222;
+  color: white;
+  border-radius: 5rem;
+  padding: 0.5rem 2.5rem;
+}
+
+.education .box-container .box h3 {
+  font-size: 2rem;
+  color: #181818;
+  padding-top: 1.5rem;
+}
+
+.education .box-container .box p {
+  font-size: 1.4rem;
+  color: #222;
+  padding: 1rem 0;
+}
+
+/* potofolio */
+.portofolio .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.portofolio .box-container .box {
+  height: 20rem;
+  width: 26rem;
+  border-radius: 1rem;
+  margin: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.portofolio .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.portofolio .box-container .box:hover img {
+  transform: scale(1.2);
+}
+
+/* article */
+.article .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+
+.article .box-container .box {
+  height: 20rem;
+  width: 26rem;
+  border-radius: 1rem;
+  margin: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.article .box-container .box img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.article .box-container .box:hover img {
+  transform: scale(1.2);
+}
+
+/* contact */
+.contact .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact .row .content {
+  flex: 1 1 30rem;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contact .row form .box {
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: #f2f2f2;
+  color: #222;
+  text-transform: none;
+  font-size: 1.7rem;
+  width: 100%;
+}
+
+.contact .row form .message {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .row .content .title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #181818;
+  padding: 1rem 0;
+  font-weight: normal;
+}
+
+.contact .row .content h3 i {
+  padding-right: 1rem;
+  color: #8758ff;
+}
