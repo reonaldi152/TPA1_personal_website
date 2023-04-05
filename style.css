@@ -38,7 +38,7 @@ section {
 }
 
 .heading span {
-  color: #8758ff;
+  color: #FB8C00;
 }
 
 /* header */
@@ -63,7 +63,7 @@ header .saya img {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
-  border: 0.7rem solid #8758ff;
+  border: 0.7rem solid #FB8C00;
 }
 
 header .saya .nama {
@@ -90,7 +90,7 @@ header .navbar ul li a {
   display: block;
   padding: 1rem;
   margin: 1.5rem 0;
-  background-color: #8758ff;
+  background-color: #FB8C00;
   color: white;
   font-size: 2rem;
   border-radius: 5rem;
@@ -98,7 +98,7 @@ header .navbar ul li a {
 
 header .navbar ul li a:hover {
   background: white;
-  color: #8758ff;
+  color: #FB8C00;
 }
 
 /* home */
@@ -120,7 +120,7 @@ header .navbar ul li a:hover {
 }
 
 .home h1 span {
-  color: #8758ff;
+  color: #FB8C00;
 }
 
 .home p {
@@ -131,7 +131,7 @@ header .navbar ul li a:hover {
 
 .btn {
   padding: 1rem 5rem;
-  background: #8758ff;
+  background: #FB8C00;
   color: white;
   cursor: pointer;
   margin-top: 5rem;
@@ -141,7 +141,7 @@ header .navbar ul li a:hover {
 
 .btn:hover {
   background: white;
-  color: #8758ff;
+  color: #FB8C00;
 }
 
 /* about */
@@ -161,7 +161,7 @@ header .navbar ul li a:hover {
 
 .about .row .info h3 {
   font-size: 2rem;
-  color: #8758ff;
+  color: #FB8C00;
   padding: 1rem 0;
   font-weight: normal;
 }
@@ -180,7 +180,7 @@ header .navbar ul li a:hover {
 
 .about .row .skill .box {
   width: 20rem;
-  background: #8758ff;
+  background: #FB8C00;
   text-align: center;
   padding: 2rem;
   margin: 2rem;
@@ -343,5 +343,5 @@ header .navbar ul li a:hover {
 
 .contact .row .content h3 i {
   padding-right: 1rem;
-  color: #8758ff;
+  color: #FB8C00;
 }
